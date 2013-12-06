@@ -28,7 +28,7 @@ Include the script tags
 Use the directive somewhere in your html as an *attribute*
 
 ```html
-<div signature-pad></div>
+<div signature-pad signature="myThings.mySignatureModel" close="myThings.myCloseFunction()"></div>
 ```
 
 Then add the module to your list of angular dependencies as `ngSignaturePad`
