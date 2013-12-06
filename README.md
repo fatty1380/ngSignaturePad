@@ -21,6 +21,7 @@ Include the script tags
 
 ```html
 <link rel="stylesheet" href="bower_components/ngSignaturePad/ngSignaturePad.min.css"></script>
+<script src="bower_components/signature_pad/signature_pad.js"></script>
 <script src="bower_components/ngSignaturePad/index.js"></script>
 ```
 
