@@ -43,8 +43,8 @@ angular.module("ngSignaturePad").directive('signaturePad', function ($window) {
 		replace: true,
 		template: '<div class="signature-background">' +
 					'<div class="action">' +
-						'<button ng-click="accept()">OK</button>' +
-						'<button " ng-click="clear()">Empty</button>' +
+						'<button type="button" ng-click="accept()">OK</button>' +
+						'<button type="button" ng-click="clear()">Empty</button>' +
 					'</div>' +
 					'<div class="signature" ng-style="{height: signatureHeight, width: signatureWidth}" >' +
 						'<canvas></canvas>' +
