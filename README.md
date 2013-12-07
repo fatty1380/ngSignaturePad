@@ -33,7 +33,7 @@ Use the directive somewhere in your html as an *attribute*
 
 Then add the module to your list of angular dependencies as `ngSignaturePad`
 
-```
+```javascript
 angular.module('myDemoApp', [
     'ngCookies'
   , 'ngResource'
