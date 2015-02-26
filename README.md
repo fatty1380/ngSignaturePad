@@ -8,15 +8,8 @@ ngSignaturePad
 Install
 ===
 
-The install process is a little more manual right now...
-
 ```bash
-bower install -S signature_pad
-bower install https://raw.github.com/marcorinck/ngSignaturePad/master/ngSignaturePad.js
-
-pushd app/bower_components/ngSignaturePad
-wget https://raw.github.com/marcorinck/ngSignaturePad/master/ngSignaturePad.min.css
-popd
+bower install -S ngSignaturePad
 ```
     
 Include the script tags
@@ -24,7 +17,7 @@ Include the script tags
 ```html
 <link rel="stylesheet" href="bower_components/ngSignaturePad/ngSignaturePad.min.css"></script>
 <script src="bower_components/signature_pad/signature_pad.js"></script>
-<script src="bower_components/ngSignaturePad/index.js"></script>
+<script src="bower_components/ngSignaturePad/ngSignaturePad.min.js"></script>
 ```
 
 Use the directive somewhere in your html as an *attribute*
@@ -36,12 +29,8 @@ Use the directive somewhere in your html as an *attribute*
 Then add the module to your list of angular dependencies as `ngSignaturePad`
 
 ```javascript
-angular.module('myDemoApp', [
-    'ngCookies'
-  , 'ngResource'
-  , 'ngSanitize'
-  , 'ui.bootstrap'
-  , 'ui.router'
+angular.module('myApp', [
+  '...'
   , 'ngSignaturePad'
   ])
 ```
